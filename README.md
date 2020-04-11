@@ -1,1 +1,1 @@
-# PexesoGame
+# Pexeso - (game with cards oppening)
