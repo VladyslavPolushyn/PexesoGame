@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  font-family: 'Tahoma', sans-serif;
+  background-color: #E1E1E1;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100vh;
+}
+.grid {
+  display: grid;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+  min-height: 100%;
+  position: relative;
+}
+.info-box {
+  z-index: 100;
+  padding: 5px;
+  height: 10vh;
+  background-color: #979797;
+  margin-bottom: 5px;
+  border: 2px solid #717171;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.win-block {
+  color: #fff;
+}
+
+.winner-list {
+  text-align: left;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.card-box {
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 5px;
+}
+.card-box__item {
+  border: 2px solid #717171;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 14vh;
+  background-color: #979797;
+  transition: .4s;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.card-box__item:hover {
+  cursor: pointer;
+}
+
+.no-click {
+  z-index: 1;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: transparent;
+  position: absolute;
+}
+
+.no-click-item {
+
+}
+
+.game-start-block, .new-game-block {
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: 20px;
+  z-index: 100;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+
+  padding: 40px;
+  align-content: center;
+}
+
+.game-start-block {
+  background-color: #497D7D;
+}
+
+.new-game-block {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.level-choice {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.btn-block {
+  grid-gap: 10px;
+}
+
+.btn {
+  color: #fff;
+  font-weight: bold;
+  border: 2px solid black;
+  outline: none;
+  text-transform: uppercase;
+  transition: .4s;
+  padding: 20px;
+}
+
+.btn-new-game {
+  margin: 0 auto;
+  background-color: #C0BCD0;
+}
+
+.btn-easy {
+  background-color: #E2BDF6;
+}
+
+.btn-medium {
+  background-color: #463DAC;
+}
+
+.btn-hard {
+  background-color: #110D21;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border-color: #fff;
+}
+
+/********COLORS*************/
+.black {
+  background-color: #000;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.cyan {
+  background-color: cyan;
+}
+.brown {
+  background-color: brown;
+}
+.orange {
+  background-color: orange;
+}
+.pink {
+  background-color: pink;
+}
+.white {
+  background-color: white;
+}
+.purple {
+  background-color: purple;
+}
+.navy {
+  background-color: navy;
+}
+.lime {
+  background-color: lime;
+}
+.violet {
+  background-color: violet;
+}
+.coral {
+  background-color: coral;
+}
+.gray {
+  background-color: #2F2F2F;
+}
+.chocolate {
+  background-color: chocolate;
+}
+.wheat {
+  background-color: wheat;
+}
+
+/*****End Of Color*****/
+
+.no-color {
+  background-color: #979797;
+}
+
+.no-img::after {
+  position: absolute;
+  border-radius: 20px;
+  content: '';
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #979797;
+}
+
+.no-display {
+  display: none;
+}
+
